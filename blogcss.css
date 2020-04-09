@@ -1,0 +1,98 @@
+#banner {
+    height: 150px;
+    width: 500px;
+    border: 10px solid rgb(248, 184, 9);
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    color: rgb(248, 184, 9);
+    text-align: center;
+    line-height: 0.5;
+    margin: 0px 500px;
+    font-family: '나눔스퀘어';
+}
+.head-p {
+    font-size: 15px;
+    font-family: '나눔스퀘어';
+    font-weight: 600;
+    color: rgb(10, 88, 10);
+    background-color: rgb(248, 184, 9);
+    text-align: center;
+    height: 300px;
+    width: 500px;
+    padding-top: 40px;
+    margin: 0px 500px;
+    box-sizing: border-box;
+}
+#bullet1 {
+    color: rgb(8, 70, 8);
+}
+#bullet2 {
+    color: rgb(10, 88, 10);
+}
+#bullet3 {
+    color: rgb(17, 139, 17);
+}
+#bullet4 {
+    color: rgba(8, 182, 8, 0.76);
+}
+img {
+    height: 400px;
+    width: 500px;
+    padding: 0px 50px;
+    background-color: rgb(248, 184, 9);
+    box-sizing: border-box;
+    margin: 0px 500px;
+}
+.wish {
+    font-size: 20px;
+    font-family: '나눔스퀘어';
+    font-weight: 600;
+    color: rgb(10, 88, 10);
+    background-color: rgb(248, 184, 9);
+    text-align: center;
+    height: 120px;
+    width: 500px;
+    padding-top: 2px;
+    margin: 0px 500px;
+    box-sizing: border-box;
+}
+.sns {
+    font-size: 15px;
+    font-family: '나눔스퀘어';
+    font-weight: 600;
+    color: rgb(10, 88, 10);
+    background-color: rgb(248, 184, 9);
+    text-align: center;
+    height: 60px;
+    width: 500px;
+    padding-top: 2px;
+    margin: 0px 500px;
+    line-height: 1.2;
+    box-sizing: border-box;
+}
+form {
+    font-size: 20px;
+    font-family: '나눔스퀘어';
+    font-weight: 600;
+    color: rgb(10, 88, 10);
+    background-color: rgb(248, 184, 9);
+    text-align: center;
+    height: 60px;
+    width: 500px;
+    padding-top: 2px;
+    margin: 0px 500px;
+    box-sizing: border-box;
+}
+footer {
+    font-size: 40px;
+    font-family: '나눔손글씨 펜';
+    font-weight: 600;
+    color: rgb(10, 88, 10);
+    background-color: rgb(248, 184, 9);
+    text-align: center;
+    height: 70px;
+    width: 500px;
+    margin: 0px 500px;
+    box-sizing: border-box;
+}
