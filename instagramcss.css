@@ -1,0 +1,244 @@
+
+#banner {
+    margin: 0;
+    height: 40px;
+    border-bottom: 1px lightgray solid;
+    padding: 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#insta {
+    padding: 20px auto;
+    margin: 0px 100px;
+
+}
+
+img {
+    width: 100px;
+}
+
+.search {
+    border: 1px lightgray solid;
+    margin: 0px 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 30px;
+    font-size: 70%;
+    color: lightgrey;
+
+}
+.logo {
+    width: 200px;
+    margin: 0px 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#profile img {
+    width: 20px;
+    border-radius: 100%;
+    border: 1px rgb(64, 69, 73) solid;
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+#halftop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    box-sizing: border-box;
+    padding-right: 5%;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.me1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.me1 img {
+    width: 150px;
+    border-radius: 100%;
+
+}
+
+.me2 {
+    height: 150px;
+    box-sizing: border-box;
+    padding: 5px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: flex-start;
+}
+
+.threerows1 {
+    font-size: 25px;
+    font-weight: 100;
+    width: 280px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#word {
+    box-sizing: border-box;
+    color: black;
+    font-weight: bold;
+    padding: 5px 10px;
+    font-size: 15px;
+    border: 1px lightgray solid;
+    border-radius: 10%;
+}
+
+.threerows2 {
+    width: 350px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.threerows3 {
+    width: 350px;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.threeboxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#halfbottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navigation {
+    font-size: 12px;
+    font-weight: bold;
+    box-sizing: border-box;
+    border-top: 1px lightgray solid;
+    width: 900px;
+    height: 50px;
+    padding: 10px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation span {
+    font-size: 12px;
+}
+
+.smallnav1 {
+    height: 50px;
+    margin: 0 30px;
+    box-sizing: border-box;
+    padding: 20px 0px;
+    border-top: 1px black solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.smallnav2 {
+    color: darkgray;
+    margin: 0 30px;
+    padding: 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.photos img {
+    height: 285px;
+    width: 285px;
+    margin: 10px;
+}
+.photos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.more {
+    width: 950px;
+    font-size: 10px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left_info {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: darkblue;
+}
+
+.right_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.copyright span {
+    font-size: 10px;
+}
