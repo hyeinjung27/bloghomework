@@ -1,9 +1,11 @@
+body {
+    width: 100%;
+}
 
 #banner {
     margin: 0;
     height: 40px;
     border-bottom: 1px lightgray solid;
-    padding: 100px auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -11,13 +13,14 @@
 }
 
 #insta {
-    padding: 20px auto;
-    margin: 0px 100px;
-
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
-img {
-    width: 100px;
+#insta img {
+    width: 50%;
 }
 
 .search {
@@ -32,20 +35,44 @@ img {
     height: 30px;
     font-size: 70%;
     color: lightgrey;
-
+    /* background-color: blueviolet; */
 }
-.logo {
-    width: 200px;
-    margin: 0px 100px;
+
+.logo1 {
+    width: 13%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+}
 
+.logo2 {
+    width: 13%;
+    margin: 7%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo3 {
+    width: 13%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icon {
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 #profile img {
-    width: 20px;
+    width: 100%;
     border-radius: 100%;
     border: 1px rgb(64, 69, 73) solid;
     padding: 1px;
@@ -62,16 +89,16 @@ img {
 .info {
     box-sizing: border-box;
     padding-right: 5%;
-    padding-top: 30px;
-    padding-bottom: 40px;
+    padding-top: 2%;
+    padding-bottom: 3%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
 }
 
 .me1 {
+    width: 10%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -79,15 +106,15 @@ img {
 }
 
 .me1 img {
-    width: 150px;
+    width: 100%;
     border-radius: 100%;
-
 }
 
 .me2 {
+    width: 40%;
     height: 150px;
     box-sizing: border-box;
-    padding: 5px 100px;
+    padding: 0% 7%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -95,11 +122,10 @@ img {
 }
 
 .threerows1 {
-    font-size: 25px;
+    font-size: 150%;
     font-weight: 100;
-    width: 280px;
+    width: 80%;
     box-sizing: border-box;
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -111,13 +137,13 @@ img {
     color: black;
     font-weight: bold;
     padding: 5px 10px;
-    font-size: 15px;
+    font-size: 60%;
     border: 1px lightgray solid;
-    border-radius: 10%;
+    border-radius: 5%;
 }
 
 .threerows2 {
-    width: 350px;
+    width: 90%;
     font-size: 15px;
     display: flex;
     flex-direction: row;
@@ -126,7 +152,7 @@ img {
 }
 
 .threerows3 {
-    width: 350px;
+    width: 90%;
     font-size: 15px;
     font-weight: bold;
     display: flex;
@@ -135,7 +161,21 @@ img {
     align-items: center;
 }
 
-.threeboxes {
+.threeboxes1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.threeboxes2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.threeboxes3 {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -149,11 +189,11 @@ img {
     align-items: center;
 }
 .navigation {
-    font-size: 12px;
+    font-size: 80%;
     font-weight: bold;
     box-sizing: border-box;
     border-top: 1px lightgray solid;
-    width: 900px;
+    width: 60%;
     height: 50px;
     padding: 10px auto;
     display: flex;
@@ -180,8 +220,7 @@ img {
 
 .smallnav2 {
     color: darkgray;
-    margin: 0 30px;
-    padding: 0px 0px;
+    margin: 0% 5%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -189,11 +228,11 @@ img {
 }
 
 .photos img {
-    height: 285px;
-    width: 285px;
+    width: 19%;
     margin: 10px;
 }
 .photos {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -205,6 +244,7 @@ img {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+
 }
 
 footer {
@@ -214,8 +254,8 @@ footer {
     align-items: center;
 }
 .more {
-    width: 950px;
-    font-size: 10px;
+    width: 60%;
+    font-size: 70%;
     font-weight: bold;
     display: flex;
     flex-direction: row;
@@ -224,7 +264,7 @@ footer {
 }
 
 .left_info {
-    width: 500px;
+    width: 55%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -240,5 +280,100 @@ footer {
 }
 
 .copyright span {
-    font-size: 10px;
+    font-size: 70%;
+}
+
+@media(max-width: 375px) {
+    #banner {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .logo2 {
+        display: none;
+    }
+    #insta img {
+        width: 100%;
+    }
+    .logo1 {
+        margin: 0% 5%;
+        width: 30%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .logo3 {
+        box-sizing: border-box;
+        margin: 5%;
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .threerows2 {
+        display: none;
+    }
+    .info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .me1 {
+        width: 25%;
+        margin-left: 3%;
+    }
+    .me2 {
+        width: 75%;
+        justify-content: center;
+    }
+    .threerows1 {
+        flex-wrap: wrap;
+    }
+    .threeboxes3 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    #word {
+        margin-top: 5%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .threerows3 {
+        margin-top: 5%;
+    }
+    .navigation {
+        width: 100%;
+        border-bottom: 1px darkgray solid;
+    }
+    .photos img {
+        width: 32%;
+        margin: 1%;
+    }
+    .photos {
+        justify-content: space-between;
+        align-items: space-between;
+    }
+    .more {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }   
+    .left_info {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .more_info {
+        margin: 0% 5%;
+    }
 }
