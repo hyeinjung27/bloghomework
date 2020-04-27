@@ -1,0 +1,446 @@
+html {
+    background-color: rgb(204, 204, 204);
+    font-size: 62.5%;
+}
+
+p {
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+body {
+    display: block;
+    margin: 0px;
+}
+
+#header {
+    background-color: white;
+    box-sizing: border-box;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    margin: 0;
+    box-sizing: border-box;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftlogo img {
+    width: 50%;
+}
+
+.leftlogo {
+    width: 75%;
+}
+
+.rightlogo {
+    width: 25%;
+}
+
+.icon {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon .material-icons {
+    background-color: rgb(223, 223, 223);
+    box-sizing: border-box;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+.story {
+    box-sizing: border-box;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.profile{
+    width: 30%;
+    position: relative;
+}
+
+.profile .material-icons {
+    font-size: 2rem;
+    background-color: rgb(26, 111, 238);
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding: 0.5rem;
+    position: absolute;
+    bottom: 0%;
+    left: 40%;
+}
+
+.profile img {
+    width: 100%;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    border-top: 0.1rem lightgray solid;
+    border-left: 0.1rem lightgray solid;
+    border-right: 0.1rem lightgray solid;
+}
+
+.profiletext {
+    background-color: whitesmoke;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+    border-bottom: 0.1rem lightgray solid;
+    border-left: 0.1rem lightgray solid;
+    border-right: 0.1rem lightgray solid;
+    width: 30%;
+    font-size: 1.3rem;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.write {
+    background-color: white;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-content: center;
+}
+
+.writetext img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+
+.writetext {
+    width: 100%;
+    margin-top: 1rem;
+    background-color: white;
+    border-bottom: 0.1rem lightgrey solid;
+    box-sizing: border-box;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.writetext p {
+    box-sizing: border-box;
+    padding-left: 1rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.writemore {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.writemore p {
+    display: block;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+}
+
+.logomore {
+    font-size: 1.5rem;
+    font-weight: 900;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#mainpost {
+    background-color: white;
+    margin-bottom: 6rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.postprofile img {
+    width: 4.5rem;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+
+.postinfo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.postaccount {
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 700;
+    box-sizing: border-box;
+    padding: 0 1rem;
+    padding-top: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.postdate {
+    width: 100%;
+    font-size: 1.3rem;
+    box-sizing: border-box;
+    padding: 0 1rem;
+    color: rgb(104, 104, 104);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.postdate .material-icons {
+    font-size: 1.7rem;
+    margin-left: 0.5rem;
+}
+
+.feed {
+    width: 100%;
+}
+
+.feedtext {
+    width: 100%;
+    font-size: 1.5rem;
+    box-sizing: border-box;
+    padding-left: 1rem;
+}
+
+.feedtext p3 {
+    color: rgb(104, 104, 104);
+}
+
+.feedphoto {
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.feedphoto-left {
+    width: 65%;
+    margin-right: 0.5rem;
+}
+
+.feedphoto-left img{
+    width: 100%;
+}
+
+.feedphoto-right {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.feedphoto-right-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.feedphoto-right-top img {
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.feedphoto-right-bottom img {
+    width: 100%;
+}
+
+.feedphoto-right-bottom {
+    position: relative;
+}
+
+.phototext {
+    width: 100%;
+    height: 13rem;
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0%;
+    opacity: 65%;
+}
+
+.phototext p {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.likes {
+    width: 100%;
+    color: rgb(104, 104, 104);
+    box-sizing: border-box;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.likestop {
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 1rem;
+    border-bottom: 0.1rem lightgray solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.likesnum {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.thumb .material-icons{
+    box-sizing: border-box;
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-color: rgb(26, 111, 238);
+    font-size: 1rem;
+}
+
+.heart .material-icons {
+    box-sizing: border-box;
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-color: rgb(255, 86, 114);
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}
+
+.likesmore {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.likesmore img {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    margin-left: 0.5rem;
+}
+
+.likesmore .material-icons {
+    color: rgb(122, 122, 122)
+}
+
+.likesbottom {
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 1rem;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.presslikes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.presslikes .material-icons {
+    font-size: 2rem;
+    margin-right: 0.5rem;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    width: 100%;
+
+}
+
+.navicon1 {
+    width: 16.66%;
+    box-sizing: border-box;
+    padding: 1rem 0;
+    border-top: 0.2rem rgb(26, 111, 238) solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navicon2 {
+    width: 83.54%;
+    box-sizing: border-box;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav .material-icons {
+    font-size: 3rem;
+}
+
+.navicon2 .material-icons {
+    color: rgb(122, 122, 122);
+}
